@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "solo-xray",
+  "version": "${version}",
+  "name": "Solo X-Ray (Ore ESP)",
+  "description": "Singleplayer-only ore finder: color-coded outlines through walls for diamonds, ancient debris and more.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.soloxray.SoloXrayClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
